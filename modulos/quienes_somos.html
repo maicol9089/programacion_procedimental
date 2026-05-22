@@ -1,11 +1,228 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+  />
+
+  <title>Redes Sociales | VENECIA</title>
+
+  <style>
+    body{
+      background: linear-gradient(135deg,#8f0047,#4b004b);
+      min-height: 100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .social-box{
+      background:white;
+      width:90%;
+      max-width:900px;
+      border-radius:20px;
+      padding:40px;
+      box-shadow:0px 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .title-main{
+      text-align:center;
+      margin-bottom:40px;
+      color:#8f0047;
+    }
+
+    .card-social{
+      border-radius:15px;
+      transition:0.3s;
+      height:100%;
+    }
+
+    .card-social:hover{
+      transform:translateY(-8px);
+      box-shadow:0px 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .social-icon{
+      width:100px;
+      margin:auto;
+      display:block;
+      margin-bottom:20px;
+    }
+
+    .btn-social{
+      width:100%;
+      margin-top:15px;
+    }
+
+    .number{
+      font-size:20px;
+      font-weight:bold;
+      color:#25D366;
+      text-align:center;
+    }
+  </style>
 </head>
+
 <body>
+
+  <div class="social-box">
+
+    <h1 class="title is-1 title-main">
+      Redes Sociales VENECIA
+    </h1>
+
+    <div class="columns">
+
+      
+      <div class="column">
+        <div class="card card-social">
+          <div class="card-content">
+
+            <img
+              class="social-icon"
+              src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"
+            />
+
+            <h2 class="title is-4 has-text-centered">
+              Instagram Oficial
+            </h2>
+
+            <p class="has-text-centered">
+              Síguenos para descubrir promociones, platos especiales y novedades
+              del restaurante VENECIA.
+            </p>
+
+            <div class="content has-text-centered">
+              <strong>@venecia.restaurante</strong>
+            </div>
+
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="button is-danger btn-social"
+            >
+              Ir a Instagram
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="column">
+        <div class="card card-social">
+          <div class="card-content">
+
+            <img
+              class="social-icon"
+              src="https://cdn-icons-png.flaticon.com/128/733/733585.png"
+            />
+
+            <h2 class="title is-4 has-text-centered">
+              WhatsApp 
+            </h2>
+
+            <p class="has-text-centered">
+              Realiza tus pedidos, reservas y consultas directamente por
+              WhatsApp.
+            </p>
+
+            <p class="number">
+              +57 300 123 4567
+            </p>
+
+            <a
+              href="https://wa.me/573001234567"
+              target="_blank"
+              class="button is-success btn-social"
+            >
+              Enviar Mensaje
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="columns mt-5">
+
+      <div class="column">
+        <div class="card card-social">
+          <div class="card-content">
+
+            <img
+              class="social-icon"
+              src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"
+            />
+
+            <h2 class="title is-4 has-text-centered">
+              Facebook
+            </h2>
+
+            <p class="has-text-centered">
+              Mantente informado sobre eventos, promociones y contenido
+              exclusivo.
+            </p>
+
+            <div class="content has-text-centered">
+              <strong>VENECIA Restaurante</strong>
+            </div>
+
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              class="button is-link btn-social"
+            >
+              Ir a Facebook
+            </a>
+
+          </div>
+        </div>
+      </div>
+
     
+      <div class="column">
+        <div class="card card-social">
+          <div class="card-content">
+
+            <img
+              class="social-icon"
+              src="https://cdn-icons-png.flaticon.com/128/3046/3046121.png"
+            />
+
+            <h2 class="title is-4 has-text-centered">
+              TikTok
+            </h2>
+
+            <p class="has-text-centered">
+              Disfruta videos de nuestros platos, cocina y momentos especiales.
+            </p>
+
+            <div class="content has-text-centered">
+              <strong>@venecia.food</strong>
+            </div>
+
+            <a
+              href="https://tiktok.com"
+              target="_blank"
+              class="button is-dark btn-social"
+            >
+              Ir a TikTok
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
 </body>
 </html>
