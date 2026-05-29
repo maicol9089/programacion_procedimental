@@ -1,0 +1,10 @@
+    let nombre = document.getElementById("nombre").value;
+    let apellido = document.getElementById("apellido").value;
+    let telefono = document.getElementById("telefono").value;
+    let tipo_documento = document.getElementById("tipo_documento").value;
+    let documento = document.getElementById("documento").value;
+    let correo = document.getElementById("correo").value;
+    let usuario = document.getElementById("usuario").value;
+    let password = document.getElementById("password").value;
+    let fecha = document.getElementById("fecha").value;
+    let rol = document.getElementById("rol").value;
